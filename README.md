@@ -12,5 +12,5 @@ JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programm
 <br>
 <br>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/127482974/224525546-4f0da0bc-1091-4000-91f4-d85b71e6ff39.png" width="300" height="auto">
+<img src="https://user-images.githubusercontent.com/127482974/224525546-4f0da0bc-1091-4000-91f4-d85b71e6ff39.png" width="350" height="auto">
 </p>
