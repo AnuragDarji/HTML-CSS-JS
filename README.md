@@ -14,5 +14,5 @@ Cascading Style Sheets (CSS) is a stylesheet language used to describe the prese
 JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.1
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/127482974/224525546-4f0da0bc-1091-4000-91f4-d85b71e6ff39.png" width="200" height="auto">
+<img src="https://user-images.githubusercontent.com/127482974/224525546-4f0da0bc-1091-4000-91f4-d85b71e6ff39.png" width="300" height="auto">
 </p>
