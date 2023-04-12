@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Show & Hide</title>
+    <script>
+        function show_Hide(check_box){
+            var val = document.getElementById("password");
+            if(check_box.checked)
+                val.setAttribute("type","text");
+            else
+                val.setAttribute("type","password");
+        }
+    </script>
+</head>
+<body>
+    UserName: <input type="text" name="user">
+    Password: <input type="password" name="password" id="password" />
+    <br/>
+    <input type="checkbox" value="1" name="chk_box" onchange="show_Hide(this); "> Show Password
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DOM</title>
+</head>
+<body>
+    <div id="div1">
+        <p id="p1">first sentence</p>
+        <p id="p2">second sentence</p>
+    </div>
+    <script>
+        //1. Appending an element using DOM.
+        // var pnode = document.createElement("p");
+        // var node = document.createTextNode("newly added sentence.");
+        // pnode.appendChild(node); // pnode -> <p>newly added sentence.</p>
+
+        // var element = document.getElementById("div1");
+        // element.appendChild(pnode);
+
+        //2. Inserting an element using DOM.
+        // var pnode = document.createElement("p");
+        // var node = document.createTextNode("newly added sentence.");
+        // pnode.appendChild(node);
+
+        // var element = document.getElementById("div1");
+        // var nextnode = document.getElementById("p2");
+        // element.insertBefore(pnode,nextnode);
+
+        //3. removeing an element using DOM.
+        var parentnode = document.getElementById("div1");
+        var node = document.getElementById("p2");
+        parentnode.removeChild(node);
+
+    </script>
+</body>
+</html>
