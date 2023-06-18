@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JavaScript</title>
+</head>
+<body>
+	<h1 id="head">Hello World</h1>
+	<script type="text/javascript">
+		
+		var element = document.getElementById('head');
+
+		// head.addEventListener('click',function(){
+		// 	console.log("Click on head");
+		// 	element.style.backgroundColor='red';
+		// 	element.style.color='blue';
+		// })
+
+		head.addEventListener('mouseover',function(){
+			// console.log("mouseover");
+			document.getElementById('head').style.color='red';
+		})
+		head.addEventListener('mouseout',function(){
+			element.style.color='black';
+		})
+	</script>
+</body>
+</html>
